@@ -8,6 +8,7 @@ const openMenu = function (event) {
     //console.log(index)
     tabs[index].classList.remove("tab_active");
     tabsContent[index].classList.remove("tab__content_active");
+    //event.target.classList.toggle("tab_active");
     event.currentTarget.classList.toggle("tab_active");
     index = tabs.findIndex((tab) => tab.classList.contains("tab_active"));
     //console.log(index)
