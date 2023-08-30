@@ -7,5 +7,6 @@ function adsRotatorInit() {
     rotatorCase[number].classList.add('rotator__case_active');
 };
 
+
 setInterval(adsRotatorInit, 1000);
 
