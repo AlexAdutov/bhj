@@ -126,4 +126,5 @@ class Product {
 
 }
 
+
 new Product(document.body);
