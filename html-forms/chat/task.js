@@ -30,7 +30,7 @@ function postMessage() {
 
 function keyHandler(event) {
     console.log(event)
-    if ((event.key === 'Enter') && (inputMessage.value.length > 0)) {
+    if ((event.key === 'Enter') && (inputMessage.value.trim().length > 0)) {
         postMessage();
         chatMessages.scrollIntoView({block: "end"});
         robotMessage();
